@@ -111,7 +111,7 @@ class CoffeeMachine:
 # Użycie fabryki do wyboru rodzaju kawy
 coffee_machine = CoffeeMachine()
 
-choice = input("Wybierz rodzaj kawy (espresso/latte/cappuccino/mocha): ")
+choice = input("Wybierz rodzaj kawy wpisujac numer odpowiadajacy danemu rodzajowi(1.espresso/2.latte/3.cappuccino/4.mocha): ")
 
 if choice == '1':
     coffee_machine.choose_factory(choice)
